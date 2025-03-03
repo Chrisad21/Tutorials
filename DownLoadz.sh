@@ -16,8 +16,8 @@ mkdir -p "$CONTROLNET_DIR"
 # Associative array of checkpoint model URLs and custom filenames
 declare -A CHECKPOINT_MODELS
 CHECKPOINT_MODELS=(
-    ["https://civitai.com/api/download/models/1464918?type=Model&format=SafeTensor&size=pruned&fp=fp16"]="StableDiffusionXL-Base.safetensors"
-    ["https://civitai.com/api/download/models/1460987?type=Model&format=SafeTensor&size=pruned&fp=fp16"]="StableDiffusionXL-Refiner.safetensors"
+    ["https://civitai.com/api/download/models/1464918?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=3f962f12abed6d1616c5b127e0209c22"]="StableDiffusionXL-Base.safetensors"
+    ["https://civitai.com/api/download/models/1460987?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=3f962f12abed6d1616c5b127e0209c22"]="StableDiffusionXL-Refiner.safetensors"
 )
 
 # Download each checkpoint model
