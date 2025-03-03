@@ -1,8 +1,9 @@
-#!/bin/bash
+﻿#!/bin/bash
 
 # Directories to save the models
 SAVE_DIR="/root/stable-diffusion-webui/models/Stable-diffusion"
-VAE_DIR="/root/stable_diffusion/models/vae"
+VAE_DIR="/root/stable_diffusion-webui/models/VAE"
+CONTROLNET_DIR="/root/stable_diffusion-webui/models/VAE"
 mkdir -p "$SAVE_DIR"
 mkdir -p "$VAE_DIR"
 
